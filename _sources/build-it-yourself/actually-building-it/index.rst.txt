@@ -1,0 +1,85 @@
+Actually building it
+====================
+
+This part is divided in steps to make it more organized.
+
+1. Creating the control panel
+-----------------------------
+To make a control panel made with buttons you need to solder the individual buttons on the prototype PCB.
+Then, solder a wire for each button and another one for VCC.
+
+.. important:: 
+    Make sure that the buttons actually work before soldering them.
+
+.. important:: 
+    Make sure that the wires are soldered firmly and do not disconnect when force is applied to them.
+
+2. Wiring the control panel
+---------------------------
+Wire the control panel to the Pico like this:
+
++-----------------+---------------+
+|Control Panel Pin|Pico Pin       |
++=================+===============+
+|00 - Up          |14 - GP10      |
++-----------------+---------------+
+|01 - Down        |15 - GP11      |
++-----------------+---------------+
+|02 - Left        |16 - GP12      |
++-----------------+---------------+
+|03 - Right       |17 - GP13      |
++-----------------+---------------+
+|04 - Ok          |19 - GP14      |
++-----------------+---------------+
+|05 - Back        |20 - GP15      |
++-----------------+---------------+
+
+3. Wiring the screen to the Pico
+--------------------------------
+Wire the screen to the Pico using an I2C connection. Wire them like this:
+
++---------------+---------------+
+|Screen Pin     |Pico Pin       |
++===============+===============+
+|00 - GND       |03 - GND       |
++---------------+---------------+
+|01 - VCC       |36 - 3V3 (OUT) |
++---------------+---------------+
+|02 - SCL       |07 - GP5       |
++---------------+---------------+
+|03 - SDA       |06 - GP4       |
++---------------+---------------+
+
+.. important:: 
+    Again, make sure that the jumper wires aren't loose.
+
+4. Wiring the battery
+---------------------
+1. Solder a part of the switch to the battery's GND.
+2. Connect the wires like this:
+
++---------------------------------------+---------------+
+|Pin                                    |Pico Pin       |
++=======================================+===============+
+|00 - GND (The other part of the button)|38 - GND       |
++---------------------------------------+---------------+
+|01 - VCC (From the battery)            |39 - VSYS      |
++---------------------------------------+---------------+
+
+.. danger:: 
+    DO NOT connect the Pico to a power source via USB if it's already using the battery. It could:
+
+    1. Fry the Pico
+    2. Overcharge the battery (and make it explode)
+
+    Make sure that the power switch is turned OFF before doing it.
+
+5. Testing the device
+---------------------
+Now that you built the guts of the PEAK device, you need to test it.
+
+Create a simple program in MicroPython that tests the screen, the buttons and every function of the Pico before proceeding.
+
+6. Using the actual PEAK Operative System
+-----------------------------------------
+Once you made sure the device works completely fine, you are ready to get the original PEAK-OS.

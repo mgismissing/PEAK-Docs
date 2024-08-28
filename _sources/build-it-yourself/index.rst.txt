@@ -1,0 +1,18 @@
+Build it yourself
+=================
+Building a PEAK device is very hard and it usually takes more than a year
+(Just kidding: just follow everything and you should be fine. This is just for TL:DR people).
+
+.. warning:: 
+    This project is not for beginners. You need to know how to solder precisely, and if you "think" that even if you never did it you could still try,
+    I'm sorry but it's not like that. Come back when you actually know what you're doing.
+
+Roadmap:
+
+.. toctree:: 
+    :maxdepth: 2
+
+    requirements/index
+    actually-building-it/index
+    software/index
+    what-now/index

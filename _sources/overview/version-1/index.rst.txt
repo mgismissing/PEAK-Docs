@@ -1,0 +1,11 @@
+Version 1
+=========
+
+PEAK's first version is made of 4 main components:
+
+1. A `Raspberry Pi Pico W <https://projects.raspberrypi.org/en/projects/get-started-pico-w>`_
+2. An OLED display (``ssd1306``)
+3. A battery (preferably 3.3V)
+4. 6 buttons for navigation (Up, Down, Left, Right, Back and Ok)
+
+More components can be added and applications can be made to support them (for example an NFC reader).

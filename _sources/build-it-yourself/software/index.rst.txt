@@ -1,0 +1,10 @@
+The software
+============
+At this point, you have three (four) choices:
+
+1. `Get the original PEAK-OS <https://www.github.com/mgismissing/PEAK-OS>`_
+2. Pay for the advanced version
+3. Find a unofficial firmware
+4. Code your own [#f1]_.
+
+.. [#f1] It will be painful. Don't recommend.

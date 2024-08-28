@@ -1,0 +1,27 @@
+PEAK - Pico Exploit and Attack Kit
+==================================
+
+PEAK is a "simple" tool used by hackers and pentesters to verify the integrity of IT systems.
+
+Buy PEAK devices
+----------------
+The PEAK device is not sold anywhere: you need to build it yourself. Don't worry, though, you just need to solder and print some pieces together.
+Why, you would ask. Well, it's very simple:
+
+"Only those worthy can harness the power of real machinery." [#f1]_
+
+More info
+---------
+.. toctree:: 
+    :maxdepth: 2
+
+    overview/index
+
+Make it
+-------
+.. toctree:: 
+    :maxdepth: 2
+
+    build-it-yourself/index
+
+.. [#f1] Translation: only people who really understand what is happening behind the scenes can use a PEAK device.

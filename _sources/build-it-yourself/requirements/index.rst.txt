@@ -1,0 +1,17 @@
+Requirements
+============
+This is everything you need to make a working PEAK device:
+
+* Some `jumper wires <https://www.amazon.com/dp/B01N40EK6M>`_
+* A `wire cutter <https://www.amazon.com/dp/B09SL2TCH7/>`_
+* A `wire stripper <https://www.amazon.com/dp/B00CD24EAK/>`_
+* A `soldering iron <https://www.amazon.com/dp/B0811Y7X96/>`_
+* A `screwdriver <https://www.amazon.com/dp/B000V8GQWM/>`_
+* Some `screws <https://www.amazon.com/dp/B0B42DJPHZ/>`_
+* A `prototype PCB <https://www.amazon.com/dp/B0BZRW8KRP/>`_
+* Some `buttons <https://www.amazon.com/dp/B09WVFHMSV/>`_
+* A `switch <https://www.amazon.com/dp/B08S3BXVNH/>`_
+* A `Raspberry Pi Pico W <https://www.amazon.com/dp/B0BN5YT8W6/>`_
+* A `128x64 OLED display <https://www.amazon.com/dp/B0B7RPCZ4Z/>`_
+* A battery of some sort (1.8V - 5.5V).
+* A 3D printer and filament (any type) / any website that can 3D print the parts for you.
